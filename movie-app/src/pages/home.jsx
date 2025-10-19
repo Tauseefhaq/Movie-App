@@ -2,7 +2,7 @@ import { useState, useEffect, use } from "react";
 import MovieCard from "../components/movieCard.jsx";
 import { searchMovies, getPopularMovies } from "../services/api.js";
 import Navbar from "../components/Navbar.jsx";
-import "../css/Home.css";
+import "../css/Home.css"
 import Favorites from "./favorites.jsx";
 function Home() {
   const [movies, setMovies] = useState([]);
